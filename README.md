@@ -64,7 +64,7 @@ This deploys:
 - Events: `Listed`, `Rented`, `DepositRefunded`, `DepositClaimed`, `Delisted`
 - Security: `ReentrancyGuard`, `Pausable`, ownership checks, approval checks
 
-## Frontend (suggested)
+## Frontend
 - Next.js + Wagmi + RainbowKit
 - Expose ABI + addresses and call: `listForRent`, `rentWithNative`, `rentWithToken`
 
