@@ -1,0 +1,25 @@
+{
+  "name": "nft-rental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "hardhat clean",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "lint": "echo 'no linter configured'",
+    "deploy:baseSepolia": "hardhat run scripts/deploy.js --network baseSepolia",
+    "verify:baseSepolia": "hardhat verify --network baseSepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "dotenv": "^17.2.2",
+    "hardhat": "^2.26.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  }
+}
